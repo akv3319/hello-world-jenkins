@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/python-web-project.git'
+                git 'https://github.com/akv3319/hello-world-jenkins.git'
             }
         }
 
